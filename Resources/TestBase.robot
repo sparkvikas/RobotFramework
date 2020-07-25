@@ -9,7 +9,7 @@ Launch the App
     Maximize Browser Window
     Set Selenium Implicit Wait  30
 
-Close the browser
+Close the App
     close browser
 
 Login
@@ -32,6 +32,13 @@ Input connector details
     Input Text  ${TxtUserId_name}  ${user_id}
     Input Text  ${TxtPassword_name}  ${password_Connector}
     Input Text  ${TxtDatabase_name}  ${database_name}
+
+
+Create Scenario
+    Click Link  ${BtnAddNew_xpath}
+    Input Text  ${}  ${ScenarioName}
+    Input Text  ${}  ${ScenarioDesc}
+    Click Button  ${BtnNext_class}
 
 
 

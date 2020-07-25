@@ -2,7 +2,8 @@ from datetime import date
 
 url = "https://172.31.34.183/"
 browser = "chrome"
-options = "options=add_argument('--ignore-certificate-errors')"
+#browser = "headlesschrome"
+#options = "options=add_argument('--ignore-certificate-errors')"
 
 
 
