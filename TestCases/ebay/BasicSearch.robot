@@ -16,7 +16,6 @@ Verify basic search functionality of ebay
     open browser  ${url}  ${browser}
     Maximize Browser Window
     Set Selenium Implicit Wait  30
-    Wait Until Element Is Enabled
 
     Input Text  xpath://*[@id="gh-ac"]  mobile
     Press keys  xpath://*[@id="gh-btn"]  [Return]

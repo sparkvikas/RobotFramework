@@ -31,6 +31,7 @@ password = "1234567"
 
 
 #---------------Home Page--------------------
+# LOCATORS
 LnkWrangling_id = "id:Data-Wrangling"
 LnkConnector_id = "id:Connectors"
 
@@ -53,7 +54,7 @@ TxtPassword_name = "name:password"
 TxtDatabase_name = "name:database_name"
 BtnTestConnection_xpath = "//button[contains(text(), 'Test Connection')]"
 
-# Data
+# MySql Data
 myDate = date.today()
 dateString = str(myDate.month) + str(myDate.day) + str(myDate.year)
 SourceName = f"src_mysql_{dateString}"

@@ -3,6 +3,7 @@ Documentation  Mysql test
 Library  SeleniumLibrary
 Variables  ../../Libraries/Locators.py
 Resource  ../../Resources/TestBase.robot
+Resource  ../../Resources/Keywords_MySql.robot
 
 Suite Setup  Launch the App
 Suite Teardown  Close the App
